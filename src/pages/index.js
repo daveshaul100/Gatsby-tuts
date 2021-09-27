@@ -1,12 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/Layout"
+import { page, text } from "../examples/home.module.css"
 
 export default function Home() {
   return (
     <Layout>
-      <h1>Homepage</h1>
-      <Link to="/about">About</Link>
+      <div className={page}>
+        <h1>Home page</h1>
+        <p className={text}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, aliquid!
+        </p>
+      </div>
     </Layout>
   )
 }
