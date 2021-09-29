@@ -13,7 +13,7 @@ module.exports = {
     person: { name: "dave", age: 61 },
     simpleData: ["item 1", "item 2"],
     complexData: [
-      { name: "john", age: 61 },
+      { name: "dave", age: 61 },
       { name: "jasmine", age: 64 },
     ],
   },
