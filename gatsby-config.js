@@ -12,12 +12,12 @@ module.exports = {
   siteMetadata: {
     title: "Simply Recipes",
     description: "Nice and clean recipes site",
-    author: "@johnsmilga",
-    person: { name: "john", age: 32 },
+    author: "@daveshaul",
+    person: { name: "dave", age: 32 },
     simpleData: ["item 1", "item 2"],
     complexData: [
-      { name: "john", age: 32 },
-      { name: "susan", age: 21 },
+      { name: "dave", age: 32 },
+      { name: "jasmine", age: 21 },
     ],
   },
   plugins: [
@@ -35,9 +35,9 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: `1sfeg2xcbtuz`,
+        spaceId: `2nxwqi5l49qs`,
         // Learn about environment variables: https://gatsby.dev/env-vars
-        accessToken: `1nbHjd66EXSx6nNgEdRPZzTYUbDlk_oQl9OsjlkeiWA`,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
   ],
