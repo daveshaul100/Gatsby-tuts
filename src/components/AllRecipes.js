@@ -9,7 +9,7 @@ const query = graphql`
       nodes {
         id
         title
-        cookTime
+        cookTme
         prepTime
         content {
           tags
