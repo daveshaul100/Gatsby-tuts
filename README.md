@@ -8,4 +8,4 @@
   Recipe site using Gatsby's hello-world starter
 </h1>
 
-Built s a part of a Udemy Gatsby tutorial
+<p align="center">Built s a part of a Udemy Gatsby tutorial</p>
